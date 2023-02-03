@@ -1,0 +1,47 @@
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.center-block{
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    height: 100vh;
+}
+
+.block {
+    width: auto; 
+    height: 70%;
+}
+
+.image {
+    border: solid black;
+    width: auto; 
+    height: 70%;
+}
+
+.arrow-button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.arrow {
+    border: solid black;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+.transform-prev {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.transform-next {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
